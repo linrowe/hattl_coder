@@ -12,27 +12,29 @@
     top: 2rem;
     left: -1;
 }
+
 .boxes {
-    position: relative;
+    position: absolute;
 }
+
 .box1 {
     background: blueviolet;
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
 }
 
 .box2 {
     background: green;
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    left: 5rem;
-    bottom: 5rem;
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    left: 10rem;
+    bottom: 10rem;
 }
 
 .box3 {
     background: orange;
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
 }
 
