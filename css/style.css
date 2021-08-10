@@ -1,9 +1,17 @@
-.header {
+.header_back {
     background: blue;
     width: vw;
     height: 4rem;
 }
 
+.menu1 {
+    background: orange;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 2rem;
+    left: -1;
+}
 .boxes {
     position: relative;
 }
@@ -27,3 +35,4 @@
     width: 5rem;
     height: 5rem;
 }
+
