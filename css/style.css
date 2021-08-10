@@ -4,6 +4,9 @@
     height: 4rem;
 }
 
+.boxes {
+    position: relative;
+}
 .box1 {
     background: blueviolet;
     width: 5rem;
@@ -14,6 +17,9 @@
     background: green;
     width: 5rem;
     height: 5rem;
+    position: absolute;
+    left: 5rem;
+    bottom: 5rem;
 }
 
 .box3 {
