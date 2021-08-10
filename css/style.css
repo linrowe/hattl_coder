@@ -1,0 +1,23 @@
+.header {
+    background: blue;
+    width: vw;
+    height: 4rem;
+}
+
+.box1 {
+    background: blueviolet;
+    width: 5rem;
+    height: 5rem;
+}
+
+.box2 {
+    background: green;
+    width: 5rem;
+    height: 5rem;
+}
+
+.box3 {
+    background: orange;
+    width: 5rem;
+    height: 5rem;
+}
