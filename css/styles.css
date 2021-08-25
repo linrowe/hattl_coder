@@ -1,11 +1,12 @@
 body {
     margin: 0;
+    box-sizing: border-box;
 }
 
 .banner {
     display: flex;
     width: 100vw;
-    height: 20vh;
+    height: 25vh;
     background: black;
     justify-content: center;
     align-items: center;
@@ -13,7 +14,17 @@ body {
 
 @media screen and (max-width: 500px) {
     .banner {
-        height: 15vh;
+        height: 10vh;
+    }
+}
+
+.image {
+    margin-top: 5vh;
+}
+
+@media screen and (max-width: 500px) {
+    .image {
+        margin-top: 4vh;
     }
 }
 
@@ -26,27 +37,69 @@ body {
     align-items: center;
 }
 
+@media screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        
+    }
+}
+
 .box1,
 .box2 {
     display: flex;
     height: 80vh;
     width: 40vw;
     background: coral;
-    align-items: center;
-    
+    flex-direction: column;
+    align-content: center;
 }
 
-.article {
-    width: 80vw;
-    height: 40vh;
-    background: darkkhaki;
-    display: inline-block;
-    
+@media screen and (max-width: 500px) {
+    .box1,
+    .box2 {
+        height: 40vh;
+        width: 90vw;
+    }
 }
+
+
 
 .button {
-    width: 80vw;
-    height: 20vh;
-    background: darkred;
-    display: inline-block;
+    width: 15vw;
+    height: 10vh;
+    background: purple;
+    margin-top: 2vh;
+    margin-left: 13vw;
+    margin-bottom: 1vh;
+}
+
+.button:hover {
+    transform: scale(120%);
+}
+
+@media screen and (max-width: 500px) {
+    .button {
+        margin-left: 36vw;
+        
+    }
+}
+.article {
+    margin: 5px;
+    width: 39vw;
+    height: 80vh;
+    background: black;
+    color: blanchedalmond;
+}
+
+.article:hover {
+    color: darkturquoise;
+}
+
+@media screen and (max-width: 500px) {
+    .article {
+        width: 86.8vw;
+        height: 75vh;
+        overflow: hidden;
+        
+    }
 }
