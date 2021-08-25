@@ -3,9 +3,12 @@ body {
 }
 
 .banner {
+    display: flex;
     width: 100vw;
     height: 20vh;
     background: black;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 500px) {
