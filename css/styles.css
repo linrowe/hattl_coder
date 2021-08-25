@@ -28,8 +28,23 @@ body {
 
 .box1,
 .box2 {
+    display: flex;
     height: 80vh;
     width: 40vw;
     background: coral;
+    align-items: center;
+    
+}
 
+.article {
+    width: 80vw;
+    height: 40vh;
+    background: darkkhaki;
+    
+}
+
+.button {
+    width: 80vw;
+    height: 20vh;
+    background: darkred;
 }
