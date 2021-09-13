@@ -6,7 +6,7 @@ body {
 .banner {
     display: flex;
     width: 100vw;
-    height: 20vh;
+    height: 18vh;
     background: black;
     justify-content: center;
     align-items: center;
