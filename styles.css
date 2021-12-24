@@ -1,0 +1,332 @@
+@font-face {
+    font-family: lobster;
+    src: url(/hattl_coder2/assets/fonts/Lobster/Lobster-Regular.ttf);
+}
+
+body {
+    position: relative;
+    
+    /* color: #0094cf; */
+    font-family: lobster;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Nav Bar --------------------------------------------*/
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: rgba(125, 240, 248, 1) !important;
+}
+
+.img-logo {
+    height: 8vh;
+    padding: 0 3vw;
+    
+}
+
+.collapse.navbar-collapse {
+    justify-content: right;
+    padding-right: 3vw;
+    font-size: larger;
+}
+
+
+
+
+
+
+/* Body ---------------------------------------------------*/
+/* First Container --------------------------------------- */
+   
+.container-first {
+    background: rgba(255, 235, 205, 0.8);
+    /* width: 100vw; */
+    padding-top: 0;
+    margin-top: 10vh;
+    text-align: center;
+    
+} 
+
+.text-hattl {
+    color: #f6a86a;
+    text-shadow: 2px 2px 5px grey;
+    padding-top: 5vh;
+}
+.text-webdev {
+    color: #ffff;
+    text-shadow: 2px 2px 5px grey;
+    padding-bottom: 0vh;
+}
+
+.laptop-tablet {
+    padding-bottom: 5vh;
+    /* transform: scale(0.6); */
+}
+
+.col-md-1.arrow-button {
+    margin-top: 0%;
+}
+
+.arrow-button img {
+    height: 60%;
+}
+
+
+
+
+
+
+
+/* Second Container -----------------------------------------------------*/
+
+.container-second{
+    background: rgba(255, 235, 205, 0.8);
+    /* width: 100vw; */
+    padding-top: 10vh;
+    /* margin-top: 10vh; */
+    text-align: center;
+    color: #f6a86a;
+    /* color: #0094cf */
+}
+
+.img-avatar {
+    padding: 8vh 0 5vh;
+}
+
+.p-text {
+    font-size: x-large;
+    padding-bottom: 30vh;
+    
+}
+
+
+
+
+
+
+/* Third Container ------------------------------------------*/
+
+.container-third {
+    margin-top: -18vh;
+    height: 40vh;
+}
+
+.card {
+    
+    text-align: center;
+}
+
+.card-margin {
+    padding: 0vh;
+    
+}
+
+.card-body-height {
+    height: 112vh;
+}
+
+.card.border-collapse {
+    border-right: none;
+}
+
+.card.border-radius {
+    border-radius: 50px !important;
+}
+
+.card-body h3 {
+    padding: 3vh 0;
+    color: #394141;
+}
+
+.card-body p {
+    font-size: large;
+    color: #26696d
+}
+
+.card-sub-heading {
+    color: #394141;
+    font-size: x-large;
+    padding-bottom: 1vh;
+}
+
+
+
+.card-sub-text {
+    color: #394141;
+    font-size: larger;
+    padding-bottom: 0.8vh;
+}
+
+.col-12.card-sub-text h5 {
+    color: #26696d
+}
+
+/* Fourth Container --------------------------------------------------*/
+
+.container-fourth .row .col-md-8 {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.container-fourth .row .col-md-8 h1 {
+    color: #26696d
+}
+
+.container-fourth .row .col-md-4 h3,
+.container-fourth .row .col-md-5 h3 {
+    /* margin-top: 5vh; */
+    margin-bottom: 3vh;
+}
+
+.container-fourth .row .col-md-4 img,
+.container-fourth .row .col-md-5 img {
+    opacity: 0.3;
+    border: 1px grey solid;
+    border-radius: 15px;
+}
+
+.container-fourth .row .col-md-4 img {
+    margin-bottom: 8vh;
+}
+
+.container-fourth .row .col-md-4 img:hover,
+.container-fourth .row .col-md-5 img:hover {
+    opacity: 1;
+}
+
+/* Footer ------------------------------------------------------------ */
+
+.footer {
+    background: #c1c1c1;
+    margin-top: 10vh;
+    /* color: #ffff; */
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#fs-frm-inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    text-align: left;
+}
+
+#fs-frm-inputs h3 {
+    text-align: center;
+}
+
+
+/* Animations --------------------------------------------------------*/
+
+
+.nav-link:hover {
+    scale: 1.1;
+}
+
+.animate__animated.animate__zoomInDown,
+.animate__animated.animate__flipIn,
+.animate__animated.animate__rubberBand {
+    --animate-duration: 3s;
+    
+}
+
+.animate__animated.animate__fadeInUpBig {
+    --animate-duration: 6s;
+    --animate-delay: 6s;
+}
+
+.animate__animated.animate__shakeY {
+    animation-iteration-count: infinite;
+    --animate-duration: 5s;
+    
+}
+
+
+
+
+
+/* Bootstrap 4 breakpoints -------------------------------------------------*/ 
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+@media (max-width: 575px) {
+    body {
+        width: 50%;
+    }
+    /* .mobile {
+        background-color: aquamarine;
+        height: 100vh;
+    }
+
+    .card-body-height {
+        height: 2222vh;
+        background-color: aquamarine;
+    } */
+} 
+ 
+/* Small devices (landscape phones, 576px and up) */
+/* @media screen and (max-width: 575px) {  
+    .text-hattl {
+        font-size: 4rem;
+    }
+    .text-webdev {
+        font-size: 3rem;
+    }
+    .mobile {
+        background-color: aquamarine;
+        height: 100vh;
+    } */
+
+    /* .card-body-height {
+        height: 112vh;
+    } */
+
+
+    /* .container.container-arrow img {
+        vertical-align: middle;
+    } */
+/* } */
+
+@media (min-width: 576px) {  
+    .text-hattl {
+        font-size: 6rem;
+    }
+    
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    .text-hattl {
+        font-size: 6rem;
+    }
+    .text-webdev {
+        font-size: 3.5rem;
+    }
+
+    
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .text-hattl {
+        font-size: 8rem;
+    }
+    .text-webdev {
+        font-size: 5rem;
+    }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .text-hattl {
+        font-size: 10rem;
+    }
+    .text-webdev {
+        font-size: 6rem;
+    }
+}
