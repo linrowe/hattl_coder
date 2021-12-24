@@ -1,3 +1,3 @@
 # hattl_coder
-Http and Css
-Practice website while learning Http and Css.
+html 5 and Css 3
+Practice website while learning html and Css.
